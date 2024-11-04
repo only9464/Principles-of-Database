@@ -1,0 +1,4 @@
+CREATE  TABLE  Deptage(
+Sdept  CHAR(15)NOT NULL COMMENT '系别',
+Avgage SMALLINT NOT NULL COMMENT '学生平均年龄'
+);COMMENT='系学生平均年龄表';

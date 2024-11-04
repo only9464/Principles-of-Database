@@ -1,0 +1,4 @@
+SELECT Sno,Grade
+FROM  SC
+WHERE  Cno= '3'
+ORDER BY Grade DESC;

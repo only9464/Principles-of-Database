@@ -1,0 +1,5 @@
+SELECT  Sno,  COUNT(*)
+FROM   SC
+WHERE Grade>=90
+GROUP BY Sno
+HAVING COUNT(*)>=3;

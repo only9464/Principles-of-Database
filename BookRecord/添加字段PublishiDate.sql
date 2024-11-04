@@ -1,0 +1,1 @@
+ALTER TABLE BookRecord ADD PublishiDate datetime NULL;

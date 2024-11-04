@@ -1,0 +1,1 @@
+SELECT Sno,Sage,Ssex FROM Student WHERE Sage >(SELECT Sage FROM S WHERE Sname = '李三' );

@@ -1,0 +1,5 @@
+SELECT
+	SNAME,
+	CITY 
+FROM
+	S;

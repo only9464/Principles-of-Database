@@ -1,0 +1,20 @@
+-- 创建表 R
+CREATE TABLE R (
+    A INT PRIMARY KEY,
+    B VARCHAR(50),
+    C VARCHAR(50)
+);
+
+-- 创建表 S_
+CREATE TABLE S_ (
+    A INT,
+    D INT,
+    E VARCHAR(50),
+    FOREIGN KEY (A) REFERENCES R(A)
+);
+
+-- 创建表 T
+CREATE TABLE T (
+    D INT PRIMARY KEY,
+    F VARCHAR(50)
+);

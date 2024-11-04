@@ -1,0 +1,6 @@
+CREATE VIEW IS_S2 AS SELECT
+Sno,Sname,Grade 
+FROM
+	IS_S1 
+WHERE
+	Grade >= 90;

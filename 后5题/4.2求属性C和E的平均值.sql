@@ -1,0 +1,8 @@
+SELECT
+	A,
+	AVG( C ),
+	AVG( E ) 
+FROM
+	R_S_T 
+GROUP BY
+	A;

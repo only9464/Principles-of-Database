@@ -1,0 +1,10 @@
+DELETE 
+FROM
+	SPJ 
+WHERE
+	SNO ='S2';
+DELETE 
+FROM
+	S 
+WHERE
+	SNO ='S2';

@@ -1,0 +1,12 @@
+SELECT DISTINCT
+	PNO 
+FROM
+	SPJ 
+WHERE
+	SNO IN (
+	SELECT
+		SNO 
+	FROM
+		S 
+WHERE
+	CITY ='上海');

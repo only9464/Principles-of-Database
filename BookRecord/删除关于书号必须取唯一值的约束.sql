@@ -1,0 +1,1 @@
+ALTER TABLE BookRecord DROP INDEX BookNo;

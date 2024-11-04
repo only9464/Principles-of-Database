@@ -1,0 +1,6 @@
+SELECT Sname		
+FROM Student
+WHERE Sno IN
+(SELECT Sno
+FROM SC
+WHERE Cno= ' 2 ');

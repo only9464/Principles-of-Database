@@ -1,0 +1,4 @@
+UPDATE S_G 
+SET Gavg = 90 
+WHERE
+	Sno = '95001';

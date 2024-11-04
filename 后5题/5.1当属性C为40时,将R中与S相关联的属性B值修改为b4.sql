@@ -1,0 +1,4 @@
+UPDATE R 
+SET R.B = 'b4' 
+WHERE
+	A IN ( SELECT A FROM S_ WHERE C = 40 );

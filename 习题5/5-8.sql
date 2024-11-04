@@ -1,0 +1,4 @@
+UPDATE P 
+SET COLOR ='蓝'
+WHERE
+	COLOR ='红';

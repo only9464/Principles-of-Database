@@ -1,0 +1,3 @@
+INSERT INTO SPJ
+VALUES
+	( 'S2', 'P4', 'J6', 200 );

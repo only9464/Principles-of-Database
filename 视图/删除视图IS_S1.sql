@@ -1,0 +1,1 @@
+DROP VIEW IS_S1;

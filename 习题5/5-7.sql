@@ -1,0 +1,13 @@
+SELECT
+	JNO 
+FROM
+	SPJ 
+WHERE
+	NOT EXISTS (
+	SELECT
+		* 
+	FROM
+		S 
+	WHERE
+	SPJ.SNO = S.SNO 
+	AND S.CITY ='天津');

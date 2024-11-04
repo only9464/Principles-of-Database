@@ -1,0 +1,3 @@
+SELECT Sno,Cno
+FROM SC
+WHERE Grade IS NULL;

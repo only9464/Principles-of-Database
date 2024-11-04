@@ -1,0 +1,9 @@
+SELECT
+	SNO 
+FROM
+	SPJ,
+	P 
+WHERE
+	JNO ='J1' 
+	AND SPJ.PNO = P.PNO 
+	AND COLOR ='红';

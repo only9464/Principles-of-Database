@@ -1,0 +1,1 @@
+ALTER TABLE BookRecord MODIFY Discount int;  

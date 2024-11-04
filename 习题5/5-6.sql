@@ -1,0 +1,10 @@
+SELECT
+	JNAME 
+FROM
+	J,
+	SPJ,
+	S 
+WHERE
+	J.JNO = SPJ.JNO 
+	AND SPJ.PNO = S.PNO 
+	AND S.CITY ='上海';

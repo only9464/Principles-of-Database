@@ -1,0 +1,13 @@
+SELECT
+	Sno,
+	SUM( Grade ) 
+FROM
+	SC 
+WHERE
+	Grade >= 60 
+GROUP BY
+	Sno 
+HAVING
+	COUNT(*)>= 4 
+ORDER BY
+	2 DESC;

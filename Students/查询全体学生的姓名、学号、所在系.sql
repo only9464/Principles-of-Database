@@ -1,0 +1,1 @@
+SELECT Sname,Sno,Sdept FROM Student;

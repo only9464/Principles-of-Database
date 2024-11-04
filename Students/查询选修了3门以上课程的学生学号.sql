@@ -1,0 +1,4 @@
+SELECT Sno
+FROM  SC
+GROUP BY Sno
+HAVING  COUNT(*) >3;
